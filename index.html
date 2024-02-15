@@ -1,0 +1,45 @@
+<!-- TODO1: Crie um laço que exiba os números de 1 a 10 -->
+<!-- TODO2: Crie duas funcoes de mesmo nome, mas de scripts diferentes, que imprimam os números em intervalos diferentes -->
+<!DOCTYPE html>
+<html lang="bzs">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Comércio Eletrônico</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+
+	<script src="js/scripts.js"></script>
+	<script src="js/decimal.js"></script>
+
+</head>
+
+<body>
+	
+	<label id="rotuloAvaliacao" class="estiloAvaliacao">Avaliação da Compra</label>
+
+	<br>
+
+	<!-- <label id="rotuloAvaliacao">Avaliação da Compra</label>
+	-->
+
+	<select id="notas" name="notas" onchange="avaliarCompra()">
+		<option value="0">0</option>
+		<option value="5">5</option>
+		<option value="10">10</option>
+	</select>
+
+	<figure>
+		<img id='carrinho' src='img/vendas.png' width='100' height='50' alt='vendas'>
+		<figcaption>
+			<p>Comércio Eletrônico.</p>
+		</figcaption>
+	</figure>
+
+	<!-- TODO1 -->
+	<button onclick="comprar()">Efetuar compra</button>
+
+</body>
+
+</html>
